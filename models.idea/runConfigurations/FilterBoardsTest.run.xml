@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="FilterBoardsTest" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/models/build/reports/pit" SOURCE_DIRS="$PROJECT_DIR$/models/src/" TARGET_CLASSES="com.musenkishi.wally.models.filters.FilterBoards" TARGET_TESTS="com.musenkishi.wally.models.filters.FilterBoardsTest" otherParams="--outputFormats XML,HTML --mutators STRONGER">
+    <module name="wally-1.6.1" />
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

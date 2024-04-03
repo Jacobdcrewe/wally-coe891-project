@@ -9,6 +9,8 @@ public class FilterBoardsTest {
 
     @Test
     public void testGetFormattedValue() {
+        System.out.println("TESTING: FilterBoards.getFormattedValue()");
+
         // BVA
         // boolean inputs BCC (Base Choice Coverage)
         FilterBoards filterBoard1 = new FilterBoards(true, true, true);
@@ -65,5 +67,8 @@ public class FilterBoardsTest {
 
         // any input that isnt 1 is turned to a 0.
         assertEquals(expected10, filterBoard10.getFormattedValue());
+
+        System.out.println("COMPLETED TESTING: FilterBoards.getFormattedValue()");
+
     }
 }
